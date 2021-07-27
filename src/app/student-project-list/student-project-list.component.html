@@ -1,0 +1,18 @@
+<table border="1" class="table">
+  <thead>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+    <th>Student Volume</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let tempStudentProject of studentProjectList">
+    <td>{{ tempStudentProject.firstName }}</td>
+    <td>{{ tempStudentProject.lastName }}</td>
+    <td>{{ tempStudentProject.email }}</td>
+    <td>{{ tempStudentProject.studentVolume}}</td>
+  </tr>
+  </tbody>
+</table>
